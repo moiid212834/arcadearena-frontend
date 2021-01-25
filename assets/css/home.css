@@ -1,0 +1,7 @@
+video{
+    max-width: 100vw;
+}
+.topusers ul li{
+    background-color: black;
+    padding-left: 0!important;
+}
