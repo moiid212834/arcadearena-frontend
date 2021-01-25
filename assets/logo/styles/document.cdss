@@ -1,0 +1,526 @@
+{
+  "version": 1700,
+  "style": {
+    "~artisticmedia~": {
+      "fill": {
+        "type": "1",
+        "primaryColor": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+        "secondaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000"
+      },
+      "outline": {
+        "color": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+        "width": "0"
+      }
+    },
+    "~artistic~": {
+      "character": {
+        "angle": "0",
+        "fill": {
+          "type": "1",
+          "primaryColor": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+          "secondaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000"
+        },
+        "outline": {
+          "color": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+          "width": "0"
+        },
+        "farEast": {
+          "italic": "0",
+          "overline": "0",
+          "charset": "134",
+          "size": "84667",
+          "underline": "0",
+          "script": "0",
+          "effect": "0",
+          "font": "Adobe Fangsong Std R",
+          "strikeout": "0",
+          "weight": "64"
+        },
+        "latin": {
+          "italic": "0",
+          "overline": "0",
+          "charset": "0",
+          "size": "84667",
+          "underline": "0",
+          "script": "0",
+          "effect": "0",
+          "font": "Arial",
+          "strikeout": "0",
+          "weight": "64"
+        },
+        "h_shift": "0",
+        "v_shift": "0",
+        "RTL": {
+          "italic": "0",
+          "overline": "0",
+          "charset": "178",
+          "size": "84667",
+          "underline": "0",
+          "script": "0",
+          "effect": "0",
+          "font": "Adobe Arabic",
+          "strikeout": "0",
+          "weight": "64"
+        }
+      },
+      "paragraph": {
+        "interCharSpacing": "0",
+        "interLineSpacing": "1000000",
+        "interLangSpacing": "0",
+        "beforeParaSpacing": "1000000",
+        "afterParaSpacing": "0",
+        "maxInterCharSpacing": "2000000",
+        "minInterWordSpacing": "600000",
+        "maxInterWordSpacing": "3000000",
+        "spacingMethod": "0",
+        "interWordSpacing": "1000000",
+        "thickThickness": "90909",
+        "dblUnderline1Distance": "-90909",
+        "thinOverlineAbsolute": "0",
+        "dblOverline2Thickness": "45455",
+        "dblUnderline2Absolute": "0",
+        "thickStrikeoutThickness": "90909",
+        "dblStrikeout1Distance": "378788",
+        "dblUnderline1Thickness": "45455",
+        "thinDistance": "-90909",
+        "dblUnderline1Absolute": "0",
+        "thickOverlineAbsolute": "0",
+        "dblOverline2Absolute": "0",
+        "dblUnderline2Thickness": "45455",
+        "dblOverline2Distance": "890910",
+        "thinStrikeoutAbsolute": "0",
+        "thickStrikeoutDistance": "356060",
+        "dblOverline1Thickness": "45455",
+        "thinOverlineDistance": "845455",
+        "dblStrikeout1Absolute": "0",
+        "thickAbsolute": "0",
+        "dblOverline1Absolute": "0",
+        "thickOverlineThickness": "90909",
+        "dblOverline1Distance": "800000",
+        "thinStrikeoutDistance": "333333",
+        "thinOverlineThickness": "45455",
+        "thinStrikeoutThickness": "45455",
+        "thickOverlineDistance": "868182",
+        "thinThickness": "45455",
+        "dblUnderline2Distance": "-181819",
+        "thickDistance": "-90909",
+        "thickStrikeoutAbsolute": "0",
+        "thinAbsolute": "0",
+        "dblStrikeout2Distance": "287878",
+        "dblStrikeout1Thickness": "45455",
+        "dblStrikeout2Absolute": "0",
+        "dblStrikeout2Thickness": "45455"
+      },
+      "transparency": {
+      }
+    },
+    "~barcode~": {
+      "transparency": {
+      },
+      "barcode": {
+        "outline": {
+          "color": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+          "width": "0"
+        },
+        "backgroundFill": {
+          "type": "1",
+          "primaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000",
+          "secondaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000"
+        },
+        "pixelFill": {
+          "type": "1",
+          "primaryColor": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+          "secondaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000",
+          "winding": "1"
+        }
+      }
+    },
+    "~callout~": {
+      "fill": {
+        "type": "1",
+        "primaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000",
+        "secondaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000"
+      },
+      "outline": {
+        "color": "RGB255,USER,51,116,169,100,00000000-0000-0000-0000-000000000000",
+        "width": "762",
+        "leftArrow": "M-1333253,-357244 L0,0 L-1333253,357244 L-1333253,-357244 Z|666626"
+      },
+      "character": {
+        "angle": "0",
+        "fill": {
+          "type": "1",
+          "primaryColor": "RGB255,USER,51,116,169,100,00000000-0000-0000-0000-000000000000",
+          "secondaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000"
+        },
+        "outline": {
+          "color": "RGB255,USER,51,116,169,100,00000000-0000-0000-0000-000000000000",
+          "width": "0"
+        },
+        "farEast": {
+          "italic": "0",
+          "overline": "0",
+          "charset": "134",
+          "size": "42333",
+          "underline": "0",
+          "script": "0",
+          "effect": "0",
+          "font": "Adobe Fangsong Std R",
+          "strikeout": "0",
+          "weight": "64"
+        },
+        "latin": {
+          "italic": "0",
+          "overline": "0",
+          "charset": "0",
+          "size": "42333",
+          "underline": "0",
+          "script": "0",
+          "effect": "0",
+          "font": "Arial",
+          "strikeout": "0",
+          "weight": "64"
+        },
+        "h_shift": "0",
+        "v_shift": "0",
+        "RTL": {
+          "italic": "0",
+          "overline": "0",
+          "charset": "178",
+          "size": "42333",
+          "underline": "0",
+          "script": "0",
+          "effect": "0",
+          "font": "Adobe Arabic",
+          "strikeout": "0",
+          "weight": "64"
+        }
+      },
+      "callout": {
+      }
+    },
+    "~dimension~": {
+      "fill": {
+        "primaryColor": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+        "secondaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000"
+      },
+      "outline": {
+        "color": "RGB255,USER,51,116,169,100,00000000-0000-0000-0000-000000000000",
+        "rightArrow": "M-1333253,-357244 L0,0 L-1333253,357244 L-1333253,-357244 Z|666626",
+        "width": "762",
+        "leftArrow": "M-1333253,-357244 L0,0 L-1333253,357244 L-1333253,-357244 Z|666626"
+      },
+      "character": {
+        "angle": "0",
+        "fill": {
+          "type": "1",
+          "primaryColor": "RGB255,USER,51,116,169,100,00000000-0000-0000-0000-000000000000",
+          "secondaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000"
+        },
+        "outline": {
+          "color": "RGB255,USER,51,116,169,100,00000000-0000-0000-0000-000000000000",
+          "width": "0"
+        },
+        "farEast": {
+          "italic": "0",
+          "overline": "0",
+          "charset": "134",
+          "size": "42333",
+          "underline": "0",
+          "script": "0",
+          "effect": "0",
+          "font": "Adobe Fangsong Std R",
+          "strikeout": "0",
+          "weight": "64"
+        },
+        "latin": {
+          "italic": "0",
+          "overline": "0",
+          "charset": "0",
+          "size": "42333",
+          "underline": "0",
+          "script": "0",
+          "effect": "0",
+          "font": "Arial",
+          "strikeout": "0",
+          "weight": "64"
+        },
+        "h_shift": "0",
+        "v_shift": "0",
+        "RTL": {
+          "italic": "0",
+          "overline": "0",
+          "charset": "178",
+          "size": "42333",
+          "underline": "0",
+          "script": "0",
+          "effect": "0",
+          "font": "Adobe Arabic",
+          "strikeout": "0",
+          "weight": "64"
+        }
+      },
+      "dimension": {
+      }
+    },
+    "~graphic~": {
+      "fill": {
+        "primaryColor": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+        "secondaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000"
+      },
+      "outline": {
+        "color": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+        "width": "2000"
+      },
+      "transparency": {
+      }
+    },
+    "~paragraph~": {
+      "character": {
+        "angle": "0",
+        "fill": {
+          "type": "1",
+          "primaryColor": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+          "secondaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000"
+        },
+        "outline": {
+          "color": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+          "width": "0"
+        },
+        "farEast": {
+          "italic": "0",
+          "overline": "0",
+          "charset": "134",
+          "size": "42333",
+          "underline": "0",
+          "script": "0",
+          "effect": "0",
+          "font": "Adobe Fangsong Std R",
+          "strikeout": "0",
+          "weight": "64"
+        },
+        "latin": {
+          "italic": "0",
+          "overline": "0",
+          "charset": "0",
+          "size": "42333",
+          "underline": "0",
+          "script": "0",
+          "effect": "0",
+          "font": "Arial",
+          "strikeout": "0",
+          "weight": "64"
+        },
+        "h_shift": "0",
+        "v_shift": "0",
+        "RTL": {
+          "italic": "0",
+          "overline": "0",
+          "charset": "178",
+          "size": "42333",
+          "underline": "0",
+          "script": "0",
+          "effect": "0",
+          "font": "Adobe Arabic",
+          "strikeout": "0",
+          "weight": "64"
+        }
+      },
+      "paragraph": {
+        "bulletFill": {
+          "type": "0"
+        },
+        "interCharSpacing": "0",
+        "interLineSpacing": "1000000",
+        "bulletHShift": "0",
+        "bulletChar": "9f000000",
+        "bulletFirstCharIndent": "35263",
+        "bulletVShift": "0",
+        "bulletFont": {
+          "overline": "0",
+          "charset": "2",
+          "size": "35983",
+          "underline": "0",
+          "script": "0",
+          "effect": "0",
+          "font": "Wingdings",
+          "strikeout": "0",
+          "weight": "64"
+        },
+        "leftMargin": "0",
+        "firstLineIndent": "0",
+        "bulletHanging": "1",
+        "bulletOutline": {
+          "width": "0"
+        },
+        "interLangSpacing": "0",
+        "beforeParaSpacing": "1000000",
+        "afterParaSpacing": "0",
+        "maxInterCharSpacing": "2000000",
+        "minInterWordSpacing": "600000",
+        "maxInterWordSpacing": "3000000",
+        "spacingMethod": "0",
+        "interWordSpacing": "1000000",
+        "restOfLinesIndent": "0",
+        "bulletAngle": "0",
+        "bulletOn": "0",
+        "thickThickness": "90909",
+        "dblUnderline1Distance": "-90909",
+        "thinOverlineAbsolute": "0",
+        "dblOverline2Thickness": "45455",
+        "dblUnderline2Absolute": "0",
+        "thickStrikeoutThickness": "90909",
+        "dblStrikeout1Distance": "378788",
+        "dblUnderline1Thickness": "45455",
+        "thinDistance": "-90909",
+        "dblUnderline1Absolute": "0",
+        "thickOverlineAbsolute": "0",
+        "dblOverline2Absolute": "0",
+        "dblUnderline2Thickness": "45455",
+        "dblOverline2Distance": "890910",
+        "thinStrikeoutAbsolute": "0",
+        "thickStrikeoutDistance": "356060",
+        "dblOverline1Thickness": "45455",
+        "thinOverlineDistance": "845455",
+        "dblStrikeout1Absolute": "0",
+        "thickAbsolute": "0",
+        "dblOverline1Absolute": "0",
+        "thickOverlineThickness": "90909",
+        "dblOverline1Distance": "800000",
+        "thinStrikeoutDistance": "333333",
+        "thinOverlineThickness": "45455",
+        "thinStrikeoutThickness": "45455",
+        "thickOverlineDistance": "868182",
+        "thinThickness": "45455",
+        "dblUnderline2Distance": "-181819",
+        "thickDistance": "-90909",
+        "thickStrikeoutAbsolute": "0",
+        "thinAbsolute": "0",
+        "dblStrikeout2Distance": "287878",
+        "dblStrikeout1Thickness": "45455",
+        "dblStrikeout2Absolute": "0",
+        "dblStrikeout2Thickness": "45455",
+        "hyphenateMinCharsBefore": "3",
+        "linesToDrop": "3",
+        "hyphenateMinCharsAfter": "2",
+        "tabLeaderSpacing": "1",
+        "breakCapitalizedWords": "0",
+        "spacingFromText": "0",
+        "breakAllCapWords": "0",
+        "tabLeaderChar": "2e000000",
+        "hyphenateMinWordLength": "6",
+        "autoHyphenate": "0",
+        "dropCapOn": "0",
+        "tabs": "0,0,127000|0,0,254000|0,0,381000|0,0,508000|0,0,635000|0,0,762000|0,0,889000|0,0,1016000|0,0,1143000|0,0,1270000|0,0,1397000|0,0,1524000",
+        "hyphenateHotZone": "127000",
+        "hangingIndent": "0"
+      },
+      "frame": {
+      }
+    },
+    "~qrcode~": {
+      "transparency": {
+      },
+      "qrcode": {
+        "outline": {
+          "color": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+          "width": "0"
+        },
+        "backgroundFill": {
+          "type": "1",
+          "primaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000",
+          "secondaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000"
+        },
+        "outerMarkerFill": {
+          "type": "1",
+          "primaryColor": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+          "secondaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000",
+          "winding": "1"
+        },
+        "pixelFill": {
+          "type": "1",
+          "primaryColor": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+          "secondaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000",
+          "winding": "1"
+        },
+        "InnerMarkerFill": {
+          "type": "1",
+          "primaryColor": "RGB255,USER,0,0,0,100,00000000-0000-0000-0000-000000000000",
+          "secondaryColor": "RGB255,USER,255,255,255,100,00000000-0000-0000-0000-000000000000",
+          "winding": "1"
+        }
+      }
+    }
+  },
+  "color styles": {
+    "palette_xml": {
+      "tag": "palette",
+      "attributes": {
+        "guid": "98f65819-df1d-41fd-8568-dc6a7e859823",
+        "name": "Color Styles Palette"
+      }
+    },
+    "ruled-harmonies": [
+    ]
+  },
+  "fom data": {
+    "3472-crl-4ebfa0c2-a2be-470b-8521-e68961e24fc9.tmp.1.vector": {
+      "title": ":[Retro Circles];br:[Círculos Retrô];cs:[复古圆圈];ct:[復古圓形];cz:[Retro kruhy];de:[Retro-Kreise];en:[Retro Circles];es:[Círculos retro];fr:[Cercles rétro];it:[Cerchi retrò];jp:[レトロ サークル];nl:[Retrocirkels];pl:[Koła retro];ru:[Круги ретро];",
+      "description": "",
+      "keywords": ":[Circles;Geometric;Abstract;Shapes];br:[Círculos;Geométrico;Resumo;Formas];cs:[圆圈;几何;抽象;图形];ct:[圓形;幾何;抽象;形狀];cz:[Kruhy;Geometrické;Abstraktní;Tvary];de:[Kreise;Geometrisch;Abstrakt;Formen];en:[Circles;Geometric;Abstract;Shapes];es:[Círculos;Geométricas;Abstracto;Formas];fr:[Cercles;Géométriques;Sommaire;Formes];it:[Cerchi;Geometrico;Astratto;Forme];jp:[円;幾何学的;抽象;シェイプ];kr:[원;기하학;추상;모양];ma:[Kör;Geometrikus;absztrakt;Alakzatok];nl:[Cirkels;Geometrisch;Abstract;Vormen];pl:[Koła;Geometryczne;Abstrakcja;Kształty];ru:[Окружности;Геометрия;Абстракция;Фигуры];su:[Ympyrät;Geometrinen;Abstrakti;Muodot];sv:[Cirklar;Geometrisk;Abstrakt;Former];tr:[Circles;Geometric;Abstract;Shapes];",
+      "subject": "",
+      "copyright": "",
+      "creatorTool": "CorelDRAW X7",
+      "createDate": "2013-11-05T18:31:40Z",
+      "modifyDate": "2013-11-05T18:31:40Z",
+      "documentID": "880c91aa-dafb-4532-b48a-56dca3281447",
+      "instanceID": "20a0e9c1-26ac-479a-a228-a715cfef61af",
+      "properties": {
+        "vectorBoundingBox": "-507818,507998,508182,-508002",
+        "tilingYOffset": "0",
+        "tilingFlagsColumnOffset": "0",
+        "angle": "0",
+        "fillName": "3472-crl-4ebfa0c2-a2be-470b-8521-e68961e24fc9.tmp.1.vector",
+        "tilingHeight": "1016001",
+        "tilingXOffset": "0",
+        "skew": "0",
+        "tilingInterTileOffset": "0",
+        "tilingFlagsNoSeams": "0",
+        "vectorOriginalBoundingBox": "-507818,507998,508182,-508002",
+        "tilingWidth": "1016001",
+        "type": "10",
+        "tilingFlagsMirrorHorizontal": "0",
+        "tilingFlagsMirrorVertical": "0"
+      }
+    },
+    "3472-crl-f20a4239-cc3e-411d-be7d-55a7f5443f7b.tmp.2.vector": {
+      "title": ":[Red Steps];br:[Passos vermelhos];cs:[红色台阶];ct:[紅色階層];cz:[Červené schody];de:[Rote Stufen];en:[Red Steps];es:[Escalones rojos];fr:[Pas rouges];it:[Grinze rosse];jp:[赤い階段];nl:[Rode treden];pl:[Czerwone kroki];ru:[Красные шаги];",
+      "description": "",
+      "keywords": ":[Abstract;Geometric;Decorative;Design];br:[Resumo;Geométrico;Decorativo;Projeto];cs:[抽象;几何;装饰性;设计];ct:[抽象;幾何;裝飾性;設計];cz:[Abstraktní;Geometrické;Dekorativní;Design];de:[Abstrakt;Geometrisch;Dekorativ;Design];en:[Abstract;Geometric;Decorative;Design];es:[Abstracto;Geométricas;Decorativo;Diseño];fr:[Sommaire;Géométriques;Décoratif;Design];it:[Astratto;Geometrico;Decorativo;Design];jp:[抽象;幾何学的;模様;デザイン];kr:[추상;기하학;장식;디자인];ma:[absztrakt;Geometrikus;dekoratív;dísz];nl:[Abstract;Geometrisch;Decoratief;Ontwerp];pl:[Abstrakcja;Geometryczne;Dekoracyjny;Projekt];ru:[Абстракция;Геометрия;Декоративные элементы;Дизайн];su:[Abstrakti;Geometrinen;Koristeellinen;Malli];sv:[Abstrakt;Geometrisk;Dekorativ;Design];tr:[Abstract;Geometric;Decorative;Design];",
+      "subject": "",
+      "copyright": "",
+      "creatorTool": "CorelDRAW X7",
+      "createDate": "2013-11-05T18:33:37Z",
+      "modifyDate": "2013-11-05T18:33:37Z",
+      "documentID": "9f845e08-1ac9-4922-97d1-f04aaa58175d",
+      "instanceID": "f78c0ac6-d32b-45a0-a7c2-071eced05ad7",
+      "properties": {
+        "vectorBoundingBox": "-375168,263972,-266932,155736",
+        "tilingYOffset": "0",
+        "tilingFlagsColumnOffset": "0",
+        "angle": "0",
+        "fillName": "3472-crl-f20a4239-cc3e-411d-be7d-55a7f5443f7b.tmp.2.vector",
+        "tilingHeight": "108237",
+        "tilingXOffset": "0",
+        "skew": "0",
+        "tilingInterTileOffset": "0",
+        "tilingFlagsNoSeams": "0",
+        "vectorOriginalBoundingBox": "-375168,263972,-266932,155736",
+        "tilingWidth": "108237",
+        "type": "10",
+        "tilingFlagsMirrorHorizontal": "0",
+        "tilingFlagsMirrorVertical": "0"
+      }
+    }
+  }
+}
