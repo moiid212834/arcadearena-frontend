@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
 body {
-    background-color: #535fe6;
+    background-color: black;
     font-family: "Poppins", sans-serif;
     font-weight: 300
+}
+
+a{
+    text-decoration: none;
+    transition: transform 0.4s;
+}
+a:hover{
+    transform: scale(1.1,1.1);
+    transition: transform 0.4s;
 }
 
 html,body{
