@@ -29,9 +29,9 @@
 
 <body>
     <!--content start-->
-    <div class="content bg-black">
-        <nav class="navbar navbar-expand-md navbar-dark bg-black animate__animated animate__slideInDown">
-            <div class="container-fluid">
+    <div class="content bg-black" id="top">
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-black animate__animated animate__slideInDown" style="height: 90px;">
+            <div class="container-fluid py-2" style="background-color: #000000aa;">
                 <a class="navbar-brand" href="#"><img src="assets/logo/logo.svg" alt="Arcade Arena"
                         style="max-width: 80px;" srcset=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
@@ -40,11 +40,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarID">
                     <div class="navbar-nav mx-auto">
-                        <a class="nav-link ml-5 ml-md-0 active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link ml-5" aria-current="page" href="#">Torneos</a>
-                        <a class="nav-link ml-5" aria-current="page" href="#">Lohas</a>
-                        <a class="nav-link ml-5" aria-current="page" href="#">Overlays</a>
-                        <a class="nav-link ml-5" aria-current="page" href="#">Discord</a>
+                        <a class="nav-link ml-5 ml-md-0 active" aria-current="page" href="#top">Home</a>
+                        <a class="nav-link ml-5" aria-current="page" href="#torneos">Torneos</a>
+                        <a class="nav-link ml-5" aria-current="page" href="#lohas">Lohas</a>
+                        <a class="nav-link ml-5" aria-current="page" href="#overlays">Overlays</a>
+                        <a class="nav-link ml-5" aria-current="page" href="#discord">Discord</a>
                         <a href="login.html" class="btn px-5 mx-5 pink text-white"
                             style="border-radius: 50px;">Login</a>
                     </div>
@@ -60,7 +60,7 @@
                 <source src="assets/bg/mobile.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
             </video>
-            <div class="position-absolute" style="bottom:80px;">
+            <div class="position-absolute" style="bottom:40px;">
                 <div class="w-100 text-center text-md-left p-5">
                     <h1 class="text-light mb-4 animate__animated animate__fadeInUp animate__delay-1s">Welcome to Arcade
                         Arena</h1>
@@ -71,15 +71,15 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid py-5">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-9">
                     <div class="text-light">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="text-center">
-                                    <h1>Overlays</h1>
-                                    <div class="rounded p-4 m-2 border border-dark">
+                                    <h1 id="overlays" class="mt-5">Overlays</h1>
+                                    <div class="rounded p-4  border border-dark">
 
                                         <div>
                                             <div class="d-flex justify-content-between">
@@ -120,7 +120,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <h1 class="text-center">Tornieos</h1>
+                                <h1 id="torneos" class="text-center mt-5">Tornieos</h1>
                                 <iframe class="w-100"
                                     src="https://player.twitch.tv/?video=882705658&parent=arcadearena-frontend.vercel.app"
                                     frameborder="0" allowfullscreen="true" scrolling="no" height="230"
@@ -130,19 +130,21 @@
                         </div>
                     </div>
 
-                    <div class="my-5 p-1">
+                    <div id="lohas" class="mt-5 mb-2 mx-2 p-1">
+                        <div class="">
                         <iframe class="w-100" style="height: 100vh;max-height: 400px;"
                             src="https://www.youtube.com/embed/7HYJJ9kWH-g?color=white" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
+                        </div>
                     </div>
-                    <div class="container-fluid py-5">
+                    <div class="container-fluid">
                         <div class="text-light">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="text-center">
-                                        <h1>Arcade Arena Tv</h1>
-                                        <div class="rounded p-1 m-2 border border-dark">
+                                        <h1 id="tv" class="mt-5">Arcade Arena Tv</h1>
+                                        <div class="rounded p-1 border border-dark">
 
                                             <iframe
                                                 src="https://www.youtube.com/embed/?listType=user_uploads&list=CODLeague"
@@ -152,7 +154,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h1 class="text-center">Discord</h1>
+                                    <h1 id="discord" class="text-center mt-5">Discord</h1>
                                     <iframe src="https://titanembeds.com/embed/803309937262329928" height="410"
                                         class="w-100" frameborder="0"></iframe>
                                 </div>
@@ -161,7 +163,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 mb-5">
                     <div class="topusers   sticky-top">
                         <div class="p-4 m-2">
                             <h4 class="text-white">Top Users</h4>
@@ -229,7 +231,7 @@
                 </div>
             </div>
         </div>
-        <footer class="border-top p-5">
+        <footer class="border-top p-5 mt-5">
             <h5 class="text-center text-white">
                 Fale Consco | &copy; arcadearena.com | 2020
             </h5>
