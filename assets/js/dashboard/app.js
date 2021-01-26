@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
     var bsDefaults = {
-            offset: true,
+            offset: false,
             overlay: false,
             width: '240px'
         },
