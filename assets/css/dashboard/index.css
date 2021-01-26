@@ -93,3 +93,28 @@ body{
  .btn-check:focus+.btn, .btn:focus{
      box-shadow: none!important;
  }
+ .colorful{
+    background: rgb(63,94,251);
+    background: linear-gradient(335deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+ }
+ .colorful-yellow{
+    background: rgb(240,247,142);
+    background: linear-gradient(310deg, rgb(175, 155, 0)35%, rgb(255, 220, 63) 100%);
+
+ }
+ .colorful-blue{
+    background: rgb(0,0,182);
+    background: linear-gradient(310deg, rgba(0,0,182,1) 8%, rgba(0,0,182,1) 36%, rgba(138,187,242,1) 100%);
+ }
+ .colorful-green{
+    background: rgb(3,130,3);
+    background: linear-gradient(40deg, rgba(3,130,3,1) 8%, rgba(28,182,0,1) 36%, rgba(102,247,109,1) 100%);
+ }
+ .colorful-purple{
+    background: rgb(69,3,130);
+    background: linear-gradient(40deg, rgba(69,3,130,1) 8%, rgba(182,0,172,1) 36%, rgba(136,102,247,1) 100%);
+ }
+ .colorful-black{
+    background: rgb(212,212,212);
+    background: linear-gradient(338deg, rgba(212,212,212,1) 0%, rgba(100,100,100,1) 0%, rgba(0,0,0,1) 36%, rgba(60,60,60,1) 85%, rgba(162,162,162,1) 100%, rgba(204,204,204,1) 100%);
+ }
