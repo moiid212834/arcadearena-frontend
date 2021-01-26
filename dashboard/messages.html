@@ -37,7 +37,7 @@
 				data-toggle="canvas" data-target="#bs-canvas-left" aria-expanded="false" aria-controls="bs-canvas-left">
 				&#9776;
 			</div>
-			<div class="h3 text-light">Dashboard</div>
+			<div class="h3 text-light">Messages</div>
 		</div>
 
 		<a class="navbar-brand mx-0 mx-md-5" href="/"><img src="../assets/logo/logo.svg" alt=""
@@ -54,10 +54,10 @@
 		<div class="la h2 text-white bs-canvas-close" style="position: absolute;right: 10px">&times;</div>
 		<div class="bs-canvas-content py-2 pl-3">
 			<ul class="nav navbar-nav side-nav">
-				<li class="active"><a href="index.html"><i class="fa fa-fw fa-dashboard mr-2"></i>Dashboard</a></li>
+				<li><a href="index.html"><i class="fa fa-fw fa-dashboard mr-2"></i>Dashboard</a></li>
 				<li><a href="equipes.html"><i class="fa fa-fw fa-sitemap mr-2"></i>Equipes</a></li>
 				<li><a href="competitions.html"><i class="fa fa-fw fa-trophy mr-2"></i>Compenatos</a></li>
-				<li><a href="messages.html"><i class="fa fa-fw fa-bell mr-2"></i>Messages</a></li>
+				<li class="active"><a href="messages.html"><i class="fa fa-fw fa-bell mr-2"></i>Messages</a></li>
 				<li><a href="settings.html"><i class="fa fa-fw fa fa-gears mr-2"></i>Settings</a></li>
 				<li class="mt-5"><a href="../login.html"><i class="fa fa-fw fa fa-sign-out mr-2"></i> Logout</a></li>
 			</ul>
@@ -84,7 +84,7 @@
 									</div>
 									<div class="bg-gray d-none d-md-block py-2 px-4" style="min-height:70vh">
 										<nav class="sidenav">
-											<a class="nav-link card active d-flex flex-row align-items-center mb-2"
+											<a class="nav-link card d-flex flex-row align-items-center mb-2"
 												aria-current="page" href="index.html">
 												<div><i class="fa fa-book fa-2x float-left mr-3" aria-hidden="true"></i>
 												</div>
@@ -108,7 +108,7 @@
 													<h5 class=" d-inline">Campenatos</h5>
 												</div>
 											</a>
-											<a class="nav-link card  d-flex flex-row align-items-center mb-2"
+											<a class="nav-link card active d-flex flex-row align-items-center mb-2"
 												aria-current="page" href="messages.html">
 												<div><i class="fa fa-bell fa-2x float-left mr-3 "
 														aria-hidden="true"></i></div>
@@ -132,114 +132,7 @@
 								<div class="col-md-7 bg-gray py-2 px-0"
 									style="min-height: 100vh; border-radius: 15px 15px 0 0">
 									<!-- content -->
-									<div class="container-fluid">
-										<div class="row">
-											<div class="col-md-7">
-												<div class="card w-100">
-													<div class="position-absolute" style="right: 20px;top:10px"><i
-															class="fa fa-plus-circle fa-2x" aria-hidden="true"></i>
-													</div>
-													<div class="card-body">
-														<h5 class="card-title"><img src="../assets/images/side.jpg"
-																class="float-left mr-2" style="" alt="..."> MINHAS
-															EQUIPES
-														</h5>
-														<div class="card-subtitle mb-2 text-muted ">Card subtitle</div>
-														<div class="row mt-3">
-															<div class="col-md-4">
-																<div class="text-center">
-																	<strong>1</strong>
-																	<div>
-																		<strong>Caridas</strong>
-																	</div>
-																	<div class="progress">
-																		<div class="progress-bar bg-success"
-																			role="progressbar" aria-valuenow="40"
-																			style="width: 40%;" aria-valuemin="40"
-																			aria-valuemax="100"></div>
-																	</div>
-																</div>
-															</div>
-															<div class="col-md-4">
-																<div class="text-center">
-																	<strong>1</strong>
-																	<div>
-																		<strong>Caridas</strong>
-																	</div>
-																	<div class="progress">
-																		<div class="progress-bar bg-warning"
-																			role="progressbar" aria-valuenow="70"
-																			style="width: 70%;" aria-valuemin="70"
-																			aria-valuemax="100"></div>
-																	</div>
-																</div>
-															</div>
-															<div class="col-md-4">
-																<div class="text-center">
-																	<strong>1 / 5</strong>
-																	<div>
-																		<strong>Limite</strong>
-																	</div>
-																	<div class="progress">
-																		<div class="progress-bar bg-primary"
-																			role="progressbar" aria-valuenow="20"
-																			style="width:20%;" aria-valuemin="20"
-																			aria-valuemax="100"></div>
-																	</div>
-																</div>
-															</div>
-
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="col-md-5">
-												<div class="card w-100">
-													<div class="card-body">
-														<p class="card-text">Some quick example text to build on the
-															card title.</p>
-													</div>
-												</div>
-												<div class="card w-100">
-													<div class="card-body">
-														<h5 class="card-title"><img src="../assets/images/side.jpg"
-																class="float-left mr-2" style="" alt="..."> MEW MW CARD
-														</h5>
-														<div class="bg-dark-gray rounded-2">
-															<div class="row flex-wrap mt-5 p-3">
-																<div class="col-md-4 col-6 text-center my-3">
-																	<h5 class="text-white">0.76</h5>
-																	<div class="text-white">K/D</div>
-																</div>
-																<div class="col-md-4 col-6 text-center my-3">
-																	<h5 class="text-white">0.76</h5>
-																	<div class="text-white">K/G</div>
-																</div>
-																<div class="col-md-4 col-6 text-center my-3">
-																	<h5 class="text-white">765</h5>
-																	<div class="text-white">Kills</div>
-																</div>
-																<div class="col-md-4 col-6 text-center my-3">
-																	<h5 class="text-white">7</h5>
-																	<div class="text-white">Wins</div>
-																</div>
-																<div class="col-md-4 col-6 text-center my-3">
-																	<h5 class="text-white">76</h5>
-																	<div class="text-white">Top5</div>
-																</div>
-																<div class="col-md-4 col-6 text-center my-3">
-																	<h5 class="text-white">899</h5>
-																	<div class="text-white">Games</div>
-																</div>
-
-
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+									
 									<!-- content end -->
 								</div>
 								<!-- right sidebar -->
@@ -247,8 +140,8 @@
 									<div class="w-100 px-5 py-2 text-center" style="height: 400px;">
 										<a href="../login.html" type="button" class="btn btn-outline-light">@robertp <i
 												class="fa fa-sign-out" aria-hidden="true"></i></a>
-									</div>
-									<div class="bg-gray" style="min-height:70vh">
+                                    </div>
+                                    <div class="bg-gray" style="min-height:70vh">
 
 									</div>
 								</div>
