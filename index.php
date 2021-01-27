@@ -45,13 +45,13 @@
                         <a class="nav-link ml-5" aria-current="page" href="#lohas">Lohas</a>
                         <a class="nav-link ml-5" aria-current="page" href="#overlays">Overlays</a>
                         <a class="nav-link ml-5" aria-current="page" href="#discord">Discord</a>
-                        <a href="login.html" class="btn px-5 mx-5 pink text-white"
+                        <a href="login.php" class="btn px-5 mx-5 pink text-white"
                             style="border-radius: 50px;">Login</a>
                     </div>
                 </div>
             </div>
         </nav>
-        <div class="position-relative" style="min-height:60vh ;">
+        <div class="position-relative overflow-hidden" style="height:50vh ;">
             <video autoplay playsinline muted loop class="myVideo d-none d-sm-block">
                 <source src="assets/bg/desktop.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
@@ -65,8 +65,8 @@
                     <h1 class="text-light mb-4 animate__animated animate__fadeInUp animate__delay-1s">Welcome to Arcade
                         Arena</h1>
                     <div class="animate__animated animate__fadeInUp animate__delay-2s">
-                        <a href="login.html" type="button" class="btn btn-light btn-lg px-5 rounded-0 m-2 ">Login</a>
-                        <a href="register.html" type="button" class="btn btn-outline-light btn-lg px-5 m-2 rounded-0 ">Sign up</a>
+                        <a href="login.php" type="button" class="btn btn-light btn-lg px-5 rounded-0 m-2 ">Login</a>
+                        <a href="register.php" type="button" class="btn btn-outline-light btn-lg px-5 m-2 rounded-0 ">Sign up</a>
                     </div>
                 </div>
             </div>

@@ -29,7 +29,7 @@
 
 <body>
     <div class="bg-black w-100 text-center">
-        <a class="nav-link link-light" href="index.html">Back Home</a>
+        <a class="nav-link link-light" href="index.php">Back Home</a>
     </div>
     <div class="container mt-5 mb-5">
         <div class="row d-flex align-items-center justify-content-center">
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center mt-4"> <span>No code recieved?</span> <a href="register.html"
+                    <div class="text-center mt-4"> <span>No code recieved?</span> <a href="register.php"
                             class="text-decoration-none">Send Again</a> 
                     </div>
                     <div class="text-center mt-4"> 
@@ -135,7 +135,7 @@ jQuery('.mm-number-input-item input').on('keyup', function(e) {
 
     if(id === count) {
         if(parseInt(number) === password) {
-            window.location.href="./dashboard/index.html"
+            window.location.href="./dashboard/index.php"
         }
         else {
             jQuery('.mm-number-input-item input').addClass('shake');

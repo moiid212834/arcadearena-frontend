@@ -29,43 +29,33 @@
 
 <body>
     <div class="bg-black w-100 text-center">
-        <a class="nav-link link-light" href="index.html">Back Home</a>
+        <a class="nav-link link-light" href="index.php">Back Home</a>
     </div>
     <div class="container mt-5 mb-5">
         <div class="row d-flex align-items-center justify-content-center">
             <div class="col-md-6">
-                <div class="card bg-black rounded px-5 py-5"> <span class="circle"><i class="fa fa-check"></i></span>
-                    <h5 class="mt-3">Join over 25 million <br> learners from around the globe</h5> <small
-                        class="mt-2 text-muted">Master the languages of the web: HTML, CSS and javascript. This path
-                        will prepare you to build basic websites and then build interactive web apps</small>
-                        <form action="verification.html">  
-                    <div class="d-flex">
-                        <div class="form-input w-100"> <i class="fa fa-pencil"></i> <input type="text" class="form-control"
-                                placeholder="First name"> </div>
-                        <div class="form-input w-100 ml-2"> <i class="fa fa-user"></i> <input type="text" class="form-control"
-                                    placeholder="Last name"> </div>
-                    </div>
-                    <div class="form-input"> <i class="fa fa-envelope"></i> <input type="text" class="form-control"
-                            placeholder="Email address"> </div>
+                <div class="card bg-black rounded px-5 py-5">
+                    <h2 class="my-3 text-center">Login</h2>
+                    <form action="./dashboard/index.php">
                     <div class="form-input"> <i class="fa fa-user"></i> <input type="text" class="form-control"
                             placeholder="User name"> </div>
                     <div class="form-input"> <i class="fa fa-lock"></i> <input type="text" class="form-control"
                             placeholder="password"> </div>
-                    <div class="form-check"> <input class="form-check-input" type="checkbox" value=""
-                            id="flexCheckChecked" checked> <label class="form-check-label" for="flexCheckChecked"> I
-                            agree to all <a class="text-light link-primary" href="terms.html">Terms of Service</a>
-                        </label> </div> <button type="submit"
-                        class="btn pink text-white font-weight-bold mt-4 signup w-100">Register</button>
-                        </form>
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked"> Remember me </label>
+                    </div>
+                    <button type="submit" class="btn w-100 pink text-white mt-4 signup ">Proceed</button>
+                    </form>
                     <div class="text-center mt-3"> <span>Or continue with these social profile</span> </div>
                     <div class="d-flex justify-content-center mt-4"> <span class="social"><i
                                 class="fa fa-google"></i></span> <span class="social"><i
                                 class="fa fa-facebook"></i></span> <span class="social"><i
                                 class="fa fa-twitter"></i></span> <span class="social"><i
                                 class="fa fa-linkedin"></i></span> </div>
-                    <div class="text-center mt-4"> <span>Already a member?</span> <a href="login.html"
-                            class="text-decoration-none">Login</a> </div>
-
+                    <div class="text-center mt-4"> <span>New to Arcade Arena?</span> <a href="register.php"
+                            class="text-decoration-none">Register</a> </div>
                 </div>
             </div>
         </div>
