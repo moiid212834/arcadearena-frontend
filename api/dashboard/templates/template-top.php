@@ -5,7 +5,7 @@
 	<div id="content">
 		<!-- Pushable content along with off-canvas opener. -->
 		<div class="bs-offset-main bs-canvas-anim">
-			<div class="pt-4 bg-black">
+			<div class="bg-black">
 				<div class="w-100" style="min-height: 100vh">
 					<div class="row">
 						<div class="container-fluid px-4 px-md-0">
@@ -16,7 +16,7 @@
 									<!-- sidebar left end -->
 								</div>
 								<div class="col-md-7 bg-gray py-2 px-0"
-									style="min-height: 100vh; border-radius: 15px 15px 0 0">
+									style="min-height: 100vh;">
 									<!-- content -->
 									<div class="container-fluid">
 										<div class="row">

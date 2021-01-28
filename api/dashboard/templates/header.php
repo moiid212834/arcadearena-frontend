@@ -1,3 +1,4 @@
+<?php include "helper/functions.php"?>
 <!DOCTYPE html>
 <html>
 
@@ -6,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="apple-touch-startup-image" href="../assets/logo/logo.svg">
-	<link rel="icon" type="image/x-icon" href="../assets/logo/logo.svg">
+	<link rel="icon" type="image/x-icon" href="..../assets/logo/logo.svg">
 	<meta name="description"
 		content="Wepora is a best Graphics, software and Web Development company  and provides all IT solutions to their client. In india.." />
 	<meta name="Keywords"
@@ -40,7 +41,7 @@
 			<div class="h3 text-light">Dashboard</div>
 		</div>
 
-		<div class="d-flex justify-content-start align-items-baseline">
+		<div class="d-flex justify-content-end align-items-baseline" style="width: 35%;">
             <!-- Example single danger button -->
             <div class="btn-group">
               <button type="button" class="btn dropdown-toggle pl-5 mb-2 mt-3 pb-0" data-toggle="dropdown"  aria-expanded="false">
@@ -49,14 +50,23 @@
               </button>
               
               <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="messages.php">Messages <span class="text-success">(13)</span></a></li>
-                <li><a class="dropdown-item" href="stats.php">Stat Update <span class="text-success">(3)</span></a></li>
-                <li><a class="dropdown-item" href="competitions.php">Tournament <span class="text-success">(4)</span></a></li>
+                <li><a class="dropdown-item" href="messages.php">Messages <span class="text-pink">(13)</span></a></li>
+                <li><a class="dropdown-item" href="stats.php">Stat Update <span class="text-pink">(3)</span></a></li>
+                <li><a class="dropdown-item" href="competitions.php">Tournament <span class="text-pink">(4)</span></a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="teams.php">Teams <span class="text-success">(2)</span></a></li>
+                <li><a class="dropdown-item" href="teams.php">Teams <span class="text-pink">(2)</span></a></li>
             </ul>
-            </div>
-      <a href="../index.php" class="navbar-brand mx-0 mx-md-3"  href="/"><img src="../assets/logo/logo.svg" alt=""
+			</div>
+			<div class="btn-grou d-none d-md-block">
+              <button type="button" class="btn dropdown-toggle px-2 mb-2 mt-3 pb-0" data-toggle="dropdown"  aria-expanded="false">
+                  <i class="fa fa-user-circle text-white" style="font-size: 25px;" aria-hidden="true"></i>
+              </button>
+              
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="messages.php">Logout <i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
+            </ul>
+			</div>
+      		<a href="../index.php" class="navbar-brand mx-0 mx-md-3"  href="/"><img src="../assets/logo/logo.svg" alt=""
               style="max-width: 80px;margin-top: -15px;"></a>
       </div>
 

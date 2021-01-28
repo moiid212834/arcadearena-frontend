@@ -181,6 +181,14 @@
 										</select><a href="#" class="delete btn btn-outline-danger">Delete</a>
 									</div>
 								</div>
+								<div class="row">
+										<div class="col d-flex justify-content-end">
+
+
+											<button class="btn btn-dark" type="submit">Save
+												Changes</button>
+										</div>
+									</div>
 							</div>
 						</div>
 					</div>
@@ -199,7 +207,7 @@
 <!-- End Content -->
 <?php include 'templates/template-middle.php'?>
 <!-- Right Side Bar -->
-<div class="pr-md-4 pt-2">
+<div class="">
 	<div class="row">
 		<div class="col-12">
 			<div class="card mb-3">
