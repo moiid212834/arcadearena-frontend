@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="apple-touch-startup-image" href="../assets/logo/logo.svg">
-	<link rel="icon" type="image/x-icon" href="..../assets/logo/logo.svg">
+	<link rel="icon" type="image/x-icon" href="../assets/logo/logo.svg">
 	<meta name="description"
 		content="Wepora is a best Graphics, software and Web Development company  and provides all IT solutions to their client. In india.." />
 	<meta name="Keywords"

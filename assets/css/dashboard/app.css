@@ -85,6 +85,15 @@ body{
     color: #f5f5f5;
     background-color: #000;
  }
+
+.nav-pills .nav-link{
+    color: white;
+}
+.nav-pills .nav-link.active{
+   color: #f5f5f5;
+   background-color: #000;
+}
+
  .navbar>div{
      align-items: baseline!important;
  }

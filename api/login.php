@@ -51,9 +51,7 @@
                     <div class="text-center mt-3"> <span>Or continue with these social profile</span> </div>
                     <div class="d-flex justify-content-center mt-4"> <span class="social"><i
                                 class="fa fa-google"></i></span> <span class="social"><i
-                                class="fa fa-facebook"></i></span> <span class="social"><i
-                                class="fa fa-twitter"></i></span> <span class="social"><i
-                                class="fa fa-linkedin"></i></span> </div>
+                                class="fa fa-facebook"></i></span></div>
                     <div class="text-center mt-4"> <span>New to Arcade Arena?</span> <a href="register.php"
                             class="text-decoration-none">Register</a> </div>
                 </div>

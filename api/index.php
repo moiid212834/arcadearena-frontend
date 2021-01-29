@@ -165,6 +165,13 @@
                                         <td>1.23</td>
                                         <td>3</td>
                                     </tr>
+                                    <tr>
+                                        <th scope="row">@Mickael</th>
+                                        <td>1.23</td>
+                                        <td>3</td>
+                                    </tr>
+                                    
+                                   
                                 </tbody>
                             </table>
                         </div>
@@ -233,25 +240,79 @@
                                     <th scope="row">@Mickael</th>
                                     <td>1</td>
                                 </tr>
+                                <tr>
+                                    <th scope="row">@Mickael</th>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">@Mickael</th>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">@Mickael</th>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">@Mickael</th>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">@Mickael</th>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">@Mickael</th>
+                                    <td>1</td>
+                                </tr>
                             </tbody>
                         </table>
 
                     </div>
                 </div>
             </div>
-            <div id="stats" class="mt-3 mb-2 p-2 p-md-5 bg-dark-gray" style="min-height: 400px;">
-            <div id="overlay"></div>
+            <div id="stats" class="mt-3 mb-2 p-2 p-md-5 bg-dark-gray ">
+                <div id="overlay"></div>
                 <div class="row">
-                    
+                    <?php include('dashboard/templates/stat-card.php')?>
+                    <?php include('dashboard/templates/stat-card-2.php')?>
                 </div>
             </div>
         </div>
     </div>
 
-    <footer class="border-top p-5 mt-3">
-        <h5 class="text-center text-white">
+    <footer class="border-top p-5 mt-5">
+        <div class="row">
+            <div class="col-md-4 my-4 my-md-0">
+                <h4 class="text-center text-white mb-2 mb-md-5">Follow Us On</h4>
+                <div class="row">
+                    <div class="col-4 px-3"><img src="assets/images/discord.png" style="width:100%" alt="" srcset=""></div>
+                    <div class="col-4 px-3"><img src="assets/images/twitch.png" style="width:100%" alt="" srcset=""></div>
+                    <div class="col-4 px-3"><img src="assets/images/youtube.png" style="width:100%" alt="" srcset=""></div>
+                </div>
+            </div>
+            <div class="col-md-4 border-left px-5  my-4 my-md-0">
+                <h4 class="text-white"><i class="fa fa-arrow-right mr-2" aria-hidden="true"></i>Contac Us</h4>
+                <br>
+                <div>
+                    <h5><a href="http://wa.me/12345678" target="_blank"><i class="fa fa-whatsapp mr-2" aria-hidden="true"></i>Whatsapp</a></h5>
+                    <h5><a href="mailto:contact@arcadearena.com" target="_blank"><i class="fa fa-envelope mr-2" aria-hidden="true"></i>Email</a></h5>
+                    <h5><a href="http://pickpay.com" target="_blank"><i class="fa fa-money mr-2" aria-hidden="true"></i>Pickpay</a></h5>
+                </div>
+            </div>
+            <div class="col-md-4 border-left px-5">
+            <h4 class="text-white"><i class="fa fa-arrow-right mr-2" aria-hidden="true"></i>Site</h4>
+                <br>
+                <div>
+                    <h5><a href="#overlays" target="_blank">Overlays</a></h5>
+                    <h5><a href="login.php" target="_blank">Dashboard</a></h5>
+                    <h5><a href="login.php" target="_blank">Login</a></h5>
+                    <h5><a href="register.php" target="_blank">Signup</a></h5>
+                </div>
+            </div>
+        </div>
+        <h6 class="text-center text-white mt-4">
             Fale Consco | &copy; arcadearena.com | 2020
-        </h5>
+        </h6>
     </footer>
     </div>
     <!--content end-->
