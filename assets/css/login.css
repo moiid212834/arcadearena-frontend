@@ -75,13 +75,13 @@ body{
 }
 
 .social:hover {
-    background-color:rgba(252,70,107,1)!important;
+    background-color:rgba(255,0,243,1)!important;
     ;
-    border-color: rgba(252,70,107,1)!important;
+    border-color: rgba(255,0,243,1)!important;
 }
 .nav-link.active{
-    background-color: rgba(252,70,107,1)!important;
+    background-color: rgba(255,0,243,1)!important;
 }
 .nav-link:not(.active){
-    color: rgba(252,70,107,1)!important;
+    color: rgba(255,0,243,1)!important;
 }
