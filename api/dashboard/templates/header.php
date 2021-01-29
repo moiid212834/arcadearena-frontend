@@ -57,8 +57,8 @@
                 <li><a class="dropdown-item" href="teams.php">Teams <span class="text-pink">(2)</span></a></li>
             </ul>
 			</div>
-			<div class="btn-grou d-none d-md-block">
-              <button type="button" class="btn dropdown-toggle px-2 mb-2 mt-3 pb-0" data-toggle="dropdown"  aria-expanded="false">
+			<div class="btn-group d-none d-md-block">
+              <button type="button" class="btn dropdown-toggle px-2" data-toggle="dropdown"  aria-expanded="false">
                   <i class="fa fa-user-circle text-white" style="font-size: 25px;" aria-hidden="true"></i>
               </button>
               

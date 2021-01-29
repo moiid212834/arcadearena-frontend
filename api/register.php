@@ -68,7 +68,7 @@
                                 </li>
                                 <li class="nav-item p-0" role="presentation">
                                     <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
-                                        role="tab" aria-controls="pills-contact" aria-selected="false">Battle/Net</a>
+                                        role="tab" aria-controls="pills-contact" aria-selected="false">Battle.net</a>
                                 </li>
                             </ul>
 

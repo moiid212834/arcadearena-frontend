@@ -354,8 +354,8 @@
 <?php include 'templates/template-middle.php'?>
 <!-- Right Side Bar -->
 <div class="container-fluid">
-    <div class="row pr-md-3">
-        <div class="col-12">
+    <div class="row pr-md-2">
+        <div class="col-12 px-0">
             <h5 class="py-3"><strong>Notifications</strong></h5>
 
             <div class="alert alert-light border" role="alert">

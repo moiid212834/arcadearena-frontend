@@ -83,8 +83,8 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row text-light">
+        <div class="">
+            <div class="row text-light p-2 p-md-5">
 
                 <div class="col-md-5">
                     <div class="text-center">
@@ -139,7 +139,7 @@
 
                 <div class="col-md-3 mb-5">
                     <div class="topusers   sticky-top">
-                        <div class="p-4 m-2">
+                        <div class="p-4 my-2 card bg-dark-gray">
                             <h4 class="text-white">Top Users</h4>
                             <table class="table table-hover text-light">
                                 <thead>
@@ -172,16 +172,28 @@
                 </div>
             </div>
 
-            <div id="lohas" class="mt-3 mb-2 mx-2 p-1">
-                <div class="">
-                    <iframe class="w-100" style="height: 100vh;max-height: 400px;"
-                        src="https://www.youtube.com/embed/7HYJJ9kWH-g?color=white" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+            <div id="lohas" class="mt-3 mb-2 p-2 p-md-5 bg-dark-gray">
+                <div class="row">
+                    <div class="col-md-6">
+                        <iframe class="w-100" style="height: 100vh;max-height: 400px;"
+                            src="https://www.youtube.com/embed/7HYJJ9kWH-g?color=white" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="col-md-6 d-flex jusitfy-content-center align-items-center">
+                        <div class="p-2 w-100 text-center">
+                            <h3 class="text-secondary">LIVE TRANSMISSION ON THE CHANNEL</h5>
+                            <h1 class="colorful-purple text-white font-weight-bold">GAMER BRUSH</h1>
+                            <hr class="gradient">
+                            <p class="text-light p-2 p-md-5">Live the championships every Sunday starting at 5 pm on the Bruxão Gamer channel on Twitch.</p>
+                            <a class="btn pink text-light btn-lg " href="#" role="button"> Watch Now</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="row text-light">
+            <div class="row text-light p-2 p-md-5">
                 <div class="col-md-5">
                     <div class="text-center ">
                         <h1 id="tv" class="mt-3">Arcade Arena Tv</h1>
@@ -198,8 +210,8 @@
                     <iframe src="https://titanembeds.com/embed/803309937262329928" height="410" class="w-100"
                         frameborder="0"></iframe>
                 </div>
-                <div class="topusers col-md-3">
-                    <div class="p-4 m-2">
+                <div class="topusers col-md-3 ">
+                    <div class="p-4 4 my-2 card bg-dark-gray">
                         <h4 class="text-white">Top Times</h4>
                         <table class="table table-hover text-light">
                             <thead>
@@ -225,10 +237,12 @@
                         </table>
 
                     </div>
-                    <div class="my-4">
-                        <img src="assets/images/side.jpg" alt="Call of duty" class="w-100 rounded"
-                            style="object-fit: contain; object-position: center ;">
-                    </div>
+                </div>
+            </div>
+            <div id="stats" class="mt-3 mb-2 p-2 p-md-5 bg-dark-gray" style="min-height: 400px;">
+            <div id="overlay"></div>
+                <div class="row">
+                    
                 </div>
             </div>
         </div>
